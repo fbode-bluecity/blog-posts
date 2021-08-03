@@ -1,0 +1,41 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); // Example
+$font-stack: "Open Sans", sans-serif; // Example
+
+// Media Query Breakpoints
+$media-sm: 576px;
+$media-md: 768px;
+$media-lg: 992px;
+$media-xl: 1200px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
+
+// MakeContainer
+$container-padding-x: 15px;
+
+// Dinstance & Varibles
+$sm-dist: 0.6rem; // Helpers
+$mid-dist: $sm-dist * 2;
+$lg-dist: $sm-dist * 3;
+
+// Font sizes
+$sm-font: 14px;
+$md-font: 16px;
+$lg-font: 18px;
+
+// Colors
+$whitesmoke: rgba(246, 246, 246, 1);
+$whitesmoke-10p: rgba(221, 221, 221, 1);
+$white-text: rgba(255, 255, 255, 1);
+$black-text: rgba(0, 0, 0, 1);
+
+$bluecity-blue: rgba(0, 153, 204, 1);
+$bluecity-blue-dark: rgba(0, 51, 102, 1);
+$bluecity-yellow: rgba(255, 153, 51, 1);
+
