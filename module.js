@@ -37,6 +37,6 @@ post_status.className = "blog-post__status"
 post_status.innerText = "nyt";
 
 let first_blog_entry = document.querySelector(".blog-post");
-let first_blog_thumb = first_blog_entry.querySelector(".blog-post__thumb");
+let first_blog_thumb = first_blog_entry.querySelector(".blog-post__link");
 
 first_blog_entry.insertBefore(post_status, first_blog_thumb);

@@ -11,7 +11,7 @@
     <style>
       .blog-post__status {
         position: absolute;
-        margin-top: 15px;
+        margin-top: 20px;
         margin-left: -5px;
         padding: 6px !important;
 
@@ -37,19 +37,33 @@
       .blog-post__title {
         font-size: larger;
       }
+      .blog-post__subtitle {
+        color: gray;
+      }
+
+      .blog-post__body {
+        line-height: 1.428;
+      }
     </style>
   </head>
   <body>
     <div class="module-bundle">
       <div class="wrapper my-3">
-        <div class="d-grid grid-1 grid-sm-2 grid-xl-3 gap-col-8 gap-row-12">
+        <div class="d-grid grid-sm-1 grid-md-2 grid-xl-3 gap-col-8 gap-row-12">
+          <!-- Forårsdrømme -->
           <div class="d-block blog-post p-1">
-            <img class="blog-post__thumb br-2" src="images/1.jpg" alt="..." />
+            <a href="" class="blog-post__link">
+              <img
+                class="blog-post__thumb br-2"
+                src="https://www.bluecity.dk/media/wysiwyg/articles/foraarsdroemme/For_rsdr_mme_thumbnail_DK.jpg"
+                alt="..."
+              />
+            </a>
 
             <h2 class="blog-post__title my-1">Hvad er dine forårsdrømme?</h2>
-            <p class="type-grey mb-2">11. maj 2021</p>
+            <p class="blog-post__subtitle mb-2">11. maj 2021</p>
 
-            <p class="blog-post__body mb-1">
+            <p class="blog-post__body">
               Foråret er her! Hvad er dine forårsdrømme? Hos Blue City giver vi
               dig 5% på alt elektronik (som i forvejen er billigt) + 50% på
               udvalgt tilbehør, så du kan opfylde dine elektroniske
@@ -61,19 +75,25 @@
             </div>
           </div>
 
+          <!-- Brugt vs. Nyt -->
           <div class="d-block blog-post p-1">
-            <img class="blog-post__thumb br-2" src="images/2.png" alt="..." />
+            <a href="" class="blog-post__link">
+              <img
+                class="blog-post__thumb br-2"
+                src="https://www.bluecity.dk/media/wysiwyg/articles/brugt-mod-ny/ny-mod-brugt_thumbnail_DK.png"
+                alt="..."
+              />
+            </a>
 
-            <h2 class="blog-post__title f-lg my-1">
-              Hvad er dine forårsdrømme?
-            </h2>
-            <p class="type-grey mb-2">16. april 2021</p>
+            <h2 class="blog-post__title f-lg my-1">Brugt vs. Nyt</h2>
+            <p class="blog-post__subtitle mb-2">16. april 2021</p>
 
             <p class="blog-post__body mb-1">
-              Foråret er her! Hvad er dine forårsdrømme? Hos Blue City giver vi
-              dig 5% på alt elektronik (som i forvejen er billigt) + 50% på
-              udvalgt tilbehør, så du kan opfylde dine elektroniske
-              forårsdrømme.
+              <img class="blog-post__thumb br-2" src="images/3.jpg" alt="..." />
+              Hvad er den reelle forskel mellem et spritnyt produkt og et brugt
+              produkt fra Blue City? Læs med her og se også hvordan vi udregner
+              prisen, så du kan få det bedste brugte produkt fra Blue City, der
+              passer til dit budget.
             </p>
 
             <div class="d-flex p-0">
@@ -81,19 +101,25 @@
             </div>
           </div>
 
+          <!-- Påske udsalg -->
           <div class="d-block blog-post p-1">
-            <img class="blog-post__thumb br-2" src="images/3.jpg" alt="..." />
+            <a href="" class="blog-post__link">
+              <img
+                class="blog-post__thumb br-2"
+                src="https://www.bluecity.dk/media/wysiwyg/articles/paaske_2021/easter_thumbnail_dk.jpg"
+                alt="..."
+              />
+            </a>
 
             <h2 class="blog-post__title f-lg my-1">
               Vi gi’r påsken baghjul (Påskeudsalg)
             </h2>
-            <p class="type-grey mb-2">29. marts 2021</p>
+            <p class="blog-post__subtitle mb-2">29. marts 2021</p>
 
             <p class="blog-post__body mb-1">
-              Foråret er her! Hvad er dine forårsdrømme? Hos Blue City giver vi
-              dig 5% på alt elektronik (som i forvejen er billigt) + 50% på
-              udvalgt tilbehør, så du kan opfylde dine elektroniske
-              forårsdrømme.
+              Vi elsker påskehygge og har samlet et par gode påsketilbud til
+              dig, som du kan dykke ned i her. Måske er der noget elektronik du
+              lige står og mangler?
             </p>
 
             <div class="d-flex p-0">
@@ -101,19 +127,48 @@
             </div>
           </div>
 
+          <!-- 5G Post -->
           <div class="d-block blog-post p-1">
-            <img class="blog-post__thumb br-2" src="images/4.png" alt="..." />
+            <a href="" class="blog-post__link">
+              <img
+                class="blog-post__thumb br-2"
+                src="https://www.bluecity.dk/media/wysiwyg/articles/5g_article/DK_thumbnail_5G_blogarticle_500x500_DK.png"
+                alt="..."
+              />
+            </a>
+
+            <h2 class="blog-post__title f-lg my-1">Er 5G noget for dig?</h2>
+            <p class="blog-post__subtitle mb-2">25. februar 2021</p>
+
+            <p class="blog-post__body mb-1">
+              Hvad ved du egentlig om det nye 5G-netværk? Og hvornår det kommer?
+              Dyk ned i 5G-netværket, og dets fordele og muligheder her.
+            </p>
+
+            <div class="d-flex p-0">
+              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+            </div>
+          </div>
+
+          <!-- Valentinsdag -->
+          <div class="d-block blog-post p-1">
+            <a href="" class="blog-post__link">
+              <img
+                class="blog-post__thumb br-2"
+                src="https://www.bluecity.dk/media/wysiwyg/articles/valentinesday/Valentine_s_day_thumbnail_500x500_DK.png"
+                alt="..."
+              />
+            </a>
 
             <h2 class="blog-post__title f-lg my-1">
-              Hvad er dine forårsdrømme?
+              Valentinsdag hos Blue City
             </h2>
-            <p class="type-grey mb-2">25. februar 2021</p>
+            <p class="blog-post__subtitle mb-2">05. februar 2021</p>
 
             <p class="blog-post__body mb-1">
-              Foråret er her! Hvad er dine forårsdrømme? Hos Blue City giver vi
-              dig 5% på alt elektronik (som i forvejen er billigt) + 50% på
-              udvalgt tilbehør, så du kan opfylde dine elektroniske
-              forårsdrømme.
+              Valentinsdag 2021 Hos Blue City holder vi den kærlige forbindelse
+              i en kold tid. Hos Blue City kører vi Valentinstilbud fra mandag
+              d. 7/2 til søndag d. 14/2 2021
             </p>
 
             <div class="d-flex p-0">
@@ -121,39 +176,75 @@
             </div>
           </div>
 
+          <!-- Januarudsalg -->
           <div class="d-block blog-post p-1">
-            <img class="blog-post__thumb br-2" src="images/5.png" alt="..." />
-
-            <h2 class="blog-post__title f-lg my-1">
-              Hvad er dine forårsdrømme?
-            </h2>
-            <p class="type-grey mb-2">05. februar 2021</p>
-
-            <p class="blog-post__body mb-1">
-              Foråret er her! Hvad er dine forårsdrømme? Hos Blue City giver vi
-              dig 5% på alt elektronik (som i forvejen er billigt) + 50% på
-              udvalgt tilbehør, så du kan opfylde dine elektroniske
-              forårsdrømme.
-            </p>
-
-            <div class="d-flex p-0">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
-            </div>
-          </div>
-
-          <div class="d-block blog-post p-1">
-            <img class="blog-post__thumb br-2" src="images/6.png" alt="..." />
+            <a href="" class="blog-post__link">
+              <img
+                class="blog-post__thumb br-2"
+                src="https://www.bluecity.dk/media/wysiwyg/articles/januarudsalg/january_sale_thumbnail_500x500_DK.png"
+                alt="..."
+              />
+            </a>
 
             <h2 class="blog-post__title f-lg my-1">
               Er du klar til januarudsalg 2021?
             </h2>
-            <p class="type-grey mb-2">06. januar 2021</p>
+            <p class="blog-post__subtitle mb-2">06. januar 2021</p>
 
             <p class="blog-post__body mb-1">
-              Foråret er her! Hvad er dine forårsdrømme? Hos Blue City giver vi
-              dig 5% på alt elektronik (som i forvejen er billigt) + 50% på
-              udvalgt tilbehør, så du kan opfylde dine elektroniske
-              forårsdrømme.
+              Så blev det tid til januarudsalg! Julen er slut og et nyt år med
+              nye elektroniktilbud står for døren. Skynd dig at kigge med!
+            </p>
+
+            <div class="d-flex p-0">
+              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+            </div>
+          </div>
+
+          <!-- Hjemme og kontorarbejde-->
+          <div class="d-block blog-post p-1">
+            <a href="" class="blog-post__link">
+              <img
+                class="blog-post__thumb br-2"
+                src="https://www.bluecity.dk/media/wysiwyg/articles/home_office/home_office_thumbnail_500x500_DK.png"
+                alt="..."
+              />
+            </a>
+
+            <h2 class="blog-post__title f-lg my-1">
+              Hjemmearbejde & kontorarbejde
+            </h2>
+            <p class="blog-post__subtitle mb-2">23. december 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Du får her idéer til, hvilke kontormøbler du bør have, hvilket
+              elektronik udstyr du højst sandsynligt får behov for, og hvordan
+              din indretning af dit hjemmekontor og arbejdsplads kan foregå.
+            </p>
+
+            <div class="d-flex p-0">
+              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+            </div>
+          </div>
+
+          <!-- Jule udsalg -->
+          <div class="d-block blog-post p-1">
+            <a href="" class="blog-post__link">
+              <img
+                class="blog-post__thumb br-2"
+                src="https://www.bluecity.dk/media/wysiwyg/articles/jul/Christmas_thumbnail_500x500_DK.png"
+                alt="..."
+              />
+            </a>
+
+            <h2 class="blog-post__title f-lg my-1">
+              Så er det jul hos Blue City
+            </h2>
+            <p class="blog-post__subtitle mb-2">26. November 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Hele år 2020 har været en skør og en forunderlig omgang, og vi har
+              vist alle brug for lidt ekstra julehygge.
             </p>
 
             <div class="d-flex p-0">
