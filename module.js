@@ -37,6 +37,19 @@ post_status.className = "blog-post__status"
 post_status.innerText = "nyt";
 
 let first_blog_entry = document.querySelector(".blog-post");
-let first_blog_thumb = first_blog_entry.querySelector(".blog-post__link");
+let first_blog_thumb = first_blog_entry.querySelector(".blog-post__thumb");
 
 first_blog_entry.insertBefore(post_status, first_blog_thumb);
+
+
+let blog_posts = document.querySelectorAll(".blog-post");
+
+for (let j = 0; j < blog_posts.length; j++) {
+    blog_posts[j].addEventListener("click", () => {
+        // Staging
+        window.location = "https://www.bluecity.dk/" + blog_posts[j].dataset.location;
+
+        // Live
+        //window.location = blog_posts[j].dataset.location;
+    })
+}

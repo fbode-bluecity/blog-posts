@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="bluestrap.min.css" />
 
     <style>
+      .blog-post:hover {
+        cursor: pointer;
+      }
+
+      .blog-post > button:hover {
+        cursor: pointer;
+      }
+
       .blog-post__status {
         position: absolute;
         margin-top: 20px;
@@ -51,14 +59,15 @@
       <div class="wrapper my-3">
         <div class="d-grid grid-sm-1 grid-md-2 grid-xl-3 gap-col-8 gap-row-12">
           <!-- Forårsdrømme -->
-          <div class="d-block blog-post p-1">
-            <a href="" class="blog-post__link">
-              <img
-                class="blog-post__thumb br-2"
-                src="https://www.bluecity.dk/media/wysiwyg/articles/foraarsdroemme/For_rsdr_mme_thumbnail_DK.jpg"
-                alt="..."
-              />
-            </a>
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/foraarsdroemme"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/foraarsdroemme/For_rsdr_mme_thumbnail_DK.jpg"
+              alt="..."
+            />
 
             <h2 class="blog-post__title my-1">Hvad er dine forårsdrømme?</h2>
             <p class="blog-post__subtitle mb-2">11. maj 2021</p>
@@ -71,19 +80,17 @@
             </p>
 
             <div class="d-flex p-0 mt-auto">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
             </div>
           </div>
 
           <!-- Brugt vs. Nyt -->
-          <div class="d-block blog-post p-1">
-            <a href="" class="blog-post__link">
-              <img
-                class="blog-post__thumb br-2"
-                src="https://www.bluecity.dk/media/wysiwyg/articles/brugt-mod-ny/ny-mod-brugt_thumbnail_DK.png"
-                alt="..."
-              />
-            </a>
+          <div class="d-block blog-post p-1" data-location="/blog/brugt-mod-ny">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/brugt-mod-ny/ny-mod-brugt_thumbnail_DK.png"
+              alt="..."
+            />
 
             <h2 class="blog-post__title f-lg my-1">Brugt vs. Nyt</h2>
             <p class="blog-post__subtitle mb-2">16. april 2021</p>
@@ -97,19 +104,17 @@
             </p>
 
             <div class="d-flex p-0">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
             </div>
           </div>
 
           <!-- Påske udsalg -->
-          <div class="d-block blog-post p-1">
-            <a href="" class="blog-post__link">
-              <img
-                class="blog-post__thumb br-2"
-                src="https://www.bluecity.dk/media/wysiwyg/articles/paaske_2021/easter_thumbnail_dk.jpg"
-                alt="..."
-              />
-            </a>
+          <div class="d-block blog-post p-1" data-location="/blog/paskeudsalg">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/paaske_2021/easter_thumbnail_dk.jpg"
+              alt="..."
+            />
 
             <h2 class="blog-post__title f-lg my-1">
               Vi gi’r påsken baghjul (Påskeudsalg)
@@ -123,19 +128,20 @@
             </p>
 
             <div class="d-flex p-0">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
             </div>
           </div>
 
           <!-- 5G Post -->
-          <div class="d-block blog-post p-1">
-            <a href="" class="blog-post__link">
-              <img
-                class="blog-post__thumb br-2"
-                src="https://www.bluecity.dk/media/wysiwyg/articles/5g_article/DK_thumbnail_5G_blogarticle_500x500_DK.png"
-                alt="..."
-              />
-            </a>
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/det-nye-5g-netvaerk"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/5g_article/DK_thumbnail_5G_blogarticle_500x500_DK.png"
+              alt="..."
+            />
 
             <h2 class="blog-post__title f-lg my-1">Er 5G noget for dig?</h2>
             <p class="blog-post__subtitle mb-2">25. februar 2021</p>
@@ -146,19 +152,17 @@
             </p>
 
             <div class="d-flex p-0">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
             </div>
           </div>
 
           <!-- Valentinsdag -->
-          <div class="d-block blog-post p-1">
-            <a href="" class="blog-post__link">
-              <img
-                class="blog-post__thumb br-2"
-                src="https://www.bluecity.dk/media/wysiwyg/articles/valentinesday/Valentine_s_day_thumbnail_500x500_DK.png"
-                alt="..."
-              />
-            </a>
+          <div class="d-block blog-post p-1" data-location="/blog/valentinsdag">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/valentinesday/Valentine_s_day_thumbnail_500x500_DK.png"
+              alt="..."
+            />
 
             <h2 class="blog-post__title f-lg my-1">
               Valentinsdag hos Blue City
@@ -172,19 +176,20 @@
             </p>
 
             <div class="d-flex p-0">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
             </div>
           </div>
 
           <!-- Januarudsalg -->
-          <div class="d-block blog-post p-1">
-            <a href="" class="blog-post__link">
-              <img
-                class="blog-post__thumb br-2"
-                src="https://www.bluecity.dk/media/wysiwyg/articles/januarudsalg/january_sale_thumbnail_500x500_DK.png"
-                alt="..."
-              />
-            </a>
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/januar-tilbud"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/januarudsalg/january_sale_thumbnail_500x500_DK.png"
+              alt="..."
+            />
 
             <h2 class="blog-post__title f-lg my-1">
               Er du klar til januarudsalg 2021?
@@ -197,19 +202,20 @@
             </p>
 
             <div class="d-flex p-0">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
             </div>
           </div>
 
           <!-- Hjemme og kontorarbejde-->
-          <div class="d-block blog-post p-1">
-            <a href="" class="blog-post__link">
-              <img
-                class="blog-post__thumb br-2"
-                src="https://www.bluecity.dk/media/wysiwyg/articles/home_office/home_office_thumbnail_500x500_DK.png"
-                alt="..."
-              />
-            </a>
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/hjemmekontor-og-indretning"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/home_office/home_office_thumbnail_500x500_DK.png"
+              alt="..."
+            />
 
             <h2 class="blog-post__title f-lg my-1">
               Hjemmearbejde & kontorarbejde
@@ -223,19 +229,20 @@
             </p>
 
             <div class="d-flex p-0">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
             </div>
           </div>
 
           <!-- Jule udsalg -->
-          <div class="d-block blog-post p-1">
-            <a href="" class="blog-post__link">
-              <img
-                class="blog-post__thumb br-2"
-                src="https://www.bluecity.dk/media/wysiwyg/articles/jul/Christmas_thumbnail_500x500_DK.png"
-                alt="..."
-              />
-            </a>
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/jul-i-blue-city"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/jul/Christmas_thumbnail_500x500_DK.png"
+              alt="..."
+            />
 
             <h2 class="blog-post__title f-lg my-1">
               Så er det jul hos Blue City
@@ -248,13 +255,709 @@
             </p>
 
             <div class="d-flex p-0">
-              <a href="#" class="btn btn-outline-primary ml-auto">Læs mere</a>
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Cyber Monday -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/cyber-monday/"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/cyber-monday/Cyber_monday_FB_1080x1080_DK.png"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Cyber Monday hos Blue City
+            </h2>
+            <p class="blog-post__subtitle mb-2">19. November 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Cyber Monday i Blue City falder den 30. november. Her har du
+              muligheden for at spare en masse penge på brugt elektronik. Køb i
+              forkøbet med julegaverne i år.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Black Friday -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/black-friday/"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/black-friday/Black_friday_website_thumbnail_500x500_DK.png"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Black Friday hos Blue City
+            </h2>
+            <p class="blog-post__subtitle mb-2">18. November 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Black Friday i Blue City varer en hel uge, hvor du har mulighed
+              for at købe brugt elektronik til bedre priser end normalt. Læs
+              mere hos Blue City.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- E-waste Danmark  -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/e-waste-i-danmark"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/ewaste_i_danmark/e-waste_Blue_city__Recovered__blue_city_e-waste_SoMe_1080x1080_DK__2_.png"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              E-waste i Danmark: Så meget elektronikaffald producerer vi
+            </h2>
+            <p class="blog-post__subtitle mb-2">27. oktober 2020</p>
+
+            <p class="blog-post__body mb-1">
+              På verdensplan genereres der 40 millioner tons elektronikaffald
+              hvert eneste år. Det svarer til, at der bliver smidt 800 bærbare
+              computere ud i sekundet. Ja, i sekundet.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Halloween -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/halloween-tilbuds-fest"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/halloween/Halloween_blog_thumbnail_500x500_DK.png"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Halloween hos Blue City</h2>
+            <p class="blog-post__subtitle mb-2">22. oktober 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Hos Blue City har vi skræmmende gode tilbud til Halloween. Du kan
+              gøre et uhyggeligt godt køb fra d. 24/10 - 7/11.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- iPhone 12 -->
+          <div class="d-block blog-post p-1" data-location="/blog/iphone-12/">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/iphone12-release/iphone12_release_01__500x500_DK.png"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Så kommer den nye iPhone 12 snart - men skal du købe den?
+            </h2>
+            <p class="blog-post__subtitle mb-2">12. oktober 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Skal du købe den nye iPhone 12 (som er lige på trapperne)? Måske
+              er det tid til at sælge din gamle smartphone? Læs mere om iPhone
+              12 hos Blue City
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Back to School -->
+          <div class="d-block blog-post p-1" data-location="/blog/skolestart/">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/back_to_school_2020/skolestart_2020_thumbnail_dk.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Back to School 2020</h2>
+            <p class="blog-post__subtitle mb-2">03. august 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Sommerferien er slut og det er tid til at starte i skole eller på
+              studiet. Har du husket alt hvad du skal bruge til din skolestart
+              eller din studietid?
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- 6 års fødselsdag  -->
+          <div class="d-block blog-post p-1" data-location="/blog/fodselsdag/">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/fodselsdag/thumbnail_dk.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Blue City fylder 6 år</h2>
+            <p class="blog-post__subtitle mb-2">25. juni 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Det fejrer vi med en kæmpe fødselsdagsfest! Vi garanterer at den
+              er sprængfyldt med gode tilbud.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- x-box vs PS  -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/xbox-vs-playstation"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/xbox_vs_playstation/Thumbnail_2_ps_vs_xbox_bluecity.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Xbox vs. PlayStation - Titanernes kamp!
+            </h2>
+            <p class="blog-post__subtitle mb-2">17. juni 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Er du i tvivl om du bedst kan lide PlayStation eller Xbox? Eller
+              vil du bare vide mere om de to systemer - så kan du læse mere her.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- E-waste sortering  -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/saadan-boer-du-sortere-elektronikaffald"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/saadan_boer_du_sortere_dit_elektronikaffald/Saadan_bor_du_sortere_1x1_1.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Sådan bør du sortere dit elektronikaffald
+            </h2>
+            <p class="blog-post__subtitle mb-2">8. juni 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Der er både en økonomisk og en miljømæssig fordel ved at genbruge
+              elektronik. Bliv klogere på elektronisk affald her.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Guide Ipad  -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/saadan-vaelger-du-den-rette-ipad"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/ipad_guide/BlueCity_infografik_computer_DK_Thumbnail_iPad.png"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Guide: Sådan vælger du den rette iPad
+            </h2>
+            <p class="blog-post__subtitle mb-2">14. maj 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Er du på udkig efter en iPad, men i tvivl om, hvilken du skal
+              vælge? Så læs vores udførlige guide, og bliv klogere på sagen.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Mac vs. windows  -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/mac-vs-windows"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/mac_vs_windows/BlueCity_infografik_computer_DK_Thumbnail_MacWin.png"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Guide: Mac vs. Windows</h2>
+            <p class="blog-post__subtitle mb-2">7. maj 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Vi kigger på svagheder og styrker ved Mac og Windows, så du
+              nemmere kan træffe det rette valg. Læs med hos Blue City.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Guide: smartwatch  -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/smartwatch-guiden"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/smartwatch_guide/thumbnail_smartwatch_guide.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Guide: Sådan vælger du det rette smartwatch
+            </h2>
+            <p class="blog-post__subtitle mb-2">4. maj 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Er du på udkig efter et smartwatch, men er i tvivl om, hvilken
+              model du skal vælge? Så læs denne guide til smarte ure.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Mors dag 2020 -->
+          <div class="d-block blog-post p-1" data-location="/blog/mors-dag">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/mors-dag/blog_thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Mors dag 2020</h2>
+            <p class="blog-post__subtitle mb-2">29. april 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Forkæl din mor med en ny telefon, tablet eller anden form for
+              forbrugselektronik, på mors dag! Tilbuddene gælder fra d. 30/4
+              t.om. 10/5.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Tablet guide -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/den-komplette-tabletguide"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/komplet-tablet-guide/thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Den komplette tabletguide
+            </h2>
+            <p class="blog-post__subtitle mb-2">28. april 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Er du i tvivl om, hvilken tablet du bør vælge? Bliv meget klogere
+              på sagen her på siden, hvor vi stiller skarpt på tablets.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- 10 ting om smartphones -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/ti-facts-om-genbrug-af-smartphones"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/10_facts_smartphone/10facts_smartphones_thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              10 ting du måske ikke vidste om smartphones og genbrug
+            </h2>
+            <p class="blog-post__subtitle mb-2">2. april 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Vil du gerne blive klogere på genbrug af smartphones og andre
+              elektroniske apparater? Så læs med lige her på siden.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- iphone vs android -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/iphone-eller-android"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/iphone_vs_android/iphonevsandroid-1.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">iPhone vs. Android</h2>
+            <p class="blog-post__subtitle mb-2">25. marts 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Hos Blue City har vi samlet alt hvad du skal bruge for at finde ud
+              af om din næste telefon skal være en iPhone eller en Android. God
+              læselyst!
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Nintendo guide -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/ultimativ-nintendo-guide"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/nintendo/nintendo_thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Den ultimative Nintendo Guide
+            </h2>
+            <p class="blog-post__subtitle mb-2">5. februar 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Hos Blue City har vi samlet alle Nintendo konsoller gennem tiden,
+              og lavet den ultimative guide til hver konsol.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Rabat koder -->
+          <div class="d-block blog-post p-1" data-location="/blog/rabatkode">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/rabatkode/thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Blue City rabatkoder</h2>
+            <p class="blog-post__subtitle mb-2">3. februar 2020</p>
+
+            <p class="blog-post__body mb-1">
+              Hos Blue City stræber vi altid efter at have gode priser - men
+              hold alligevel øje med om vi har rabatkoder her på siden.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Skærmbeskyttelse -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/gode-raed-til-panserglas"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/klargor_din_enhed/panserblog-bluecity-thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              5 gode råd til skærmbeskyttelse
+            </h2>
+            <p class="blog-post__subtitle mb-2">19. december 2019</p>
+
+            <p class="blog-post__body mb-1">
+              Er du i tvivl om, hvorvidt du skal beskytte din skærm med
+              panserglas? Så læs med lige her på bloggen allerede i dag!
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Late summer-sale -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/late-summer-sale/"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/latesummersale/lss_thumb.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Blue City holder Late Summer Sale!
+            </h2>
+            <p class="blog-post__subtitle mb-2">12. august 2019</p>
+
+            <p class="blog-post__body mb-1">
+              Blue City holder Late Summer Sale og vi sørger for 3 uger, spækket
+              med gode tilbud!
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- 2 nemme resets -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/klargor-din-enhed/"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/klargor_din_enhed/klargor-enhed-thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              2 nemme guides til nulstilling af iPhones og Samsung Galaxy's
+            </h2>
+            <p class="blog-post__subtitle mb-2">07. juni 2019</p>
+
+            <p class="blog-post__body mb-1">
+              Hvordan nulstiller du din telefon? Fortvivl ej, vi har samlet to
+              nemme guides til dig lige her!
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Fars dag -->
+          <div class="d-block blog-post p-1" data-location="/blog/fars-dag/">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/fars_dag/fars_dag_thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Fars dag</h2>
+            <p class="blog-post__subtitle mb-2">28. maj 2019</p>
+
+            <p class="blog-post__body mb-1">
+              Har du verdens bedste far? Så har vi samlet en masse gode tilbud -
+              til alle de bedste fædre!
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Konfirmation 2019 -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/konfirmation/"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/konfirmation/kf_mini.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Konfirmation 2019</h2>
+            <p class="blog-post__subtitle mb-2">7. maj 2019</p>
+
+            <p class="blog-post__body mb-1">
+              Skal du konfirmeres, eller er du blevet konfirmeret? Så se her
+              vores bud på de bedste konfirmations køb!
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- spar ressource forbrug -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/blue-city-s-bidrag-til-sparet-ressourceforbrug/"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/festival/recycle.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Blue City's bidrag til sparet ressourceforbrug
+            </h2>
+            <p class="blog-post__subtitle mb-2">27. februar 2019</p>
+
+            <p class="blog-post__body mb-1">
+              Tænk genbrug, og køb brugt. Du kan være med til at gøre en
+              indsats, køb brugt elektronik med god samvittighed!
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Apex Legends -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/apex-legends/"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/apex_legends/apexlegends_thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Apex Legends - Det nye Battle Royale fra EA
+            </h2>
+            <p class="blog-post__subtitle mb-2">14. februar 2019</p>
+
+            <p class="blog-post__body mb-1">
+              Læs om det nye Battle Royale fra EA lige her. Blive klogere på
+              minimumskrav, alderskrav og hvordan du kommer godt i gang.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Guide: køb af iphone  -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/guide-til-kob-af-iphone-8-plus-x-xr-xs-max/"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/iphone-guide/guide_til_koeb_iphone_thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Guide til køb af iPhone</h2>
+            <p class="blog-post__subtitle mb-2">25. oktober 2018</p>
+
+            <p class="blog-post__body mb-1">
+              Der har aldrig været så mange modeller på markedet før og du nemt
+              kan fare vild blandt de mange specifikationer og reviews. Derfor
+              har vi lavet en guide til dig, så du lettere kan sammenligne de
+              nyeste iPhones og træffe en beslutning du bliver glad for
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Festival klar -->
+          <div
+            class="d-block blog-post p-1"
+            data-location="/blog/telefon-til-festival"
+          >
+            <img
+              class="blog-post__thumb br-2"
+              src="https://www.bluecity.dk/media/wysiwyg/articles/festival/festival_thumbnail.jpg"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">
+              Skal din smartphone med på festival?
+            </h2>
+            <p class="blog-post__subtitle mb-2">25. juni 2018</p>
+
+            <p class="blog-post__body mb-1">
+              Har du heller ikke lyst til at tabe din spritnye iPhone X i
+              smatten? Så lad den blive hjemme og medbring i stedet en "festival
+              telefon".
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
+            </div>
+          </div>
+
+          <!-- Fortnite -->
+          <div class="d-block blog-post p-1" data-location="/blog/fortnite">
+            <img
+              class="blog-post__thumb br-2"
+              src="https://d.newsweek.com/en/full/1581578/fortnite-season-3-delay.jpg?w=1600&h=1600&l=48&t=33&q=88&f=189653a30c73238b38b041a445f422ce"
+              alt="..."
+            />
+
+            <h2 class="blog-post__title f-lg my-1">Hvad er Fortnite?</h2>
+            <p class="blog-post__subtitle mb-2">22. maj 2018</p>
+
+            <p class="blog-post__body mb-1">
+              Et af de største fænomener i den digitale verden i starten af 2018
+              har været Fortnite. Vi har samlet nogle af de vigtigste ting du
+              skal vide om Fortnite forneden.
+            </p>
+
+            <div class="d-flex p-0">
+              <button class="btn btn-outline-primary ml-auto">Læs mere</button>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- module script -->
-    <script src="module.js"></script>
+    <script src="module.min.js"></script>
   </body>
 </html>
